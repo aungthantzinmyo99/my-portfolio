@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AungThantZinMyo</title>
+    <link rel="icon" href="image/title-logo-2.png">
+    <div class="loader-container">
+        <div class="loader">Loading...</div>
+    </div>
+    <meta name="description" content="Personal Protfolio Website"/>
+    <meta name="author" content="AungThantZinMyo"/>
+
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Personal Protfolio Website"/>
+    <meta property="og:image" content="https://aungthantzinmyo-portfolio.netlify.app/image/meta-img.PNG"/>
+    <meta property="og:url" content="https://aungthantzinmyo-portfolio.netlify.app"/>
+    <meta property="og:site_name" content="AungThantZinMyo"/>
+    <meta property="og:description" content="A Freelance Junior Web Developer/"/>
+
+
+    <style>
+        .loader-container{
+            background-color: #ffffff;
+            position: fixed;
+            z-index: 2000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+            .loader,
+            .loader:before,
+            .loader:after {
+            background: #39bdc8;
+            -webkit-animation: load1 1s infinite ease-in-out;
+            animation: load1 1s infinite ease-in-out;
+            width: 1em;
+            height: 4em;
+            }
+            .loader {
+            color: #39bdc8;
+            text-indent: -9999em;
+            margin: 88px auto;
+            position: relative;
+            font-size: 11px;
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+            }
+            .loader:before,
+            .loader:after {
+            position: absolute;
+            top: 0;
+            content: '';
+            }
+            .loader:before {
+            left: -1.5em;
+            -webkit-animation-delay: -0.32s;
+            animation-delay: -0.32s;
+            }
+            .loader:after {
+            left: 1.5em;
+            }
+            @-webkit-keyframes load1 {
+            0%,
+            80%,
+            100% {
+                box-shadow: 0 0;
+                height: 4em;
+            }
+            40% {
+                box-shadow: 0 -2em;
+                height: 5em;
+            }
+            }
+            @keyframes load1 {
+            0%,
+            80%,
+            100% {
+                box-shadow: 0 0;
+                height: 4em;
+            }
+            40% {
+                box-shadow: 0 -2em;
+                height: 5em;
+            }
+            }
+
+
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/animate_it/animate.css">
+   
+</head>
+<body>
+  
+<header class="container-fluid site-nav wow slideInDown">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand text-uppercase font-weight-bolder text-black-50" href="#">Aung Thant Zin Myo</a>
+                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa fa-bars menu-icon" style="font-size: 1.5em;"></i>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link text-uppercase" href="#home">Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-uppercase" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#projects">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                            </li>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="container-fluid home" id="home">
+    <div class="row">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center justify-content-center flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                    <div class="my-5 my-md-0 wow slideInLeft anidelay-1">
+                        <p class="text-primary text-uppercase font-weight-bolder">H e l l o !</p>
+                        <span class="display-4 font-weight-bolder text-black-50">I'm </span><span class="text-primary font-weight-bolder display-4">Aung Thant<br>Zin Myo</span>
+                        <h3 class="my-3 text-black-50">A Freelance Web Developer</h3>
+                        <a href="#contact" class="btn btn-primary text-uppercase wow fadeInLeftBig anidelay-4"><small>Hire Me</small></a>
+                        <a href="#projects" class="btn btn-outline-primary  text-uppercase wow fadeInLeftBig anidelay-3"><small>My Work</small></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="my-5 wow fadeIn anidelay-3 text-right">
+                        <img src="image/content-min.png" alt="" class="w-75 mr-5 mr-md-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="scroll-next shadow animated fadeIn" href="#about">
+        <i class="fas fa-mouse fa-2x animated bounce" style="animation-iteration-count: infinite;"></i>
+    </a>
+    <div class="social-v wow fadeIn anidelay-4">
+        <a href="https://www.facebook.com/profile.php?id=100026365733515"><i class="fab wow bounceIn fa-facebook-f" style="animation-iteration-count: infinite;"></i></a>
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FCMT0UyxrsC1%2F%3Futm_medium%3Dcopy_link%26fbclid%3DIwAR2vdikzPq0vIWSEXVijlxBoQgugvKFSjwaQ6ttLFiCtHyOO8bdQ6zRTyH8&h=AT05QeptlZjOOSDt3law-dtUBZVmN4D-q_MjlABQ6mhiRwLBJ8CVKMOaxgWp8cMojqjO8g21lR-32NK0heaC5woAzAbUakGvTc0-CQrpjmkCXoCvuYw97bIrQTXIWnGOcZ2u"><i class="fab wow bounceIn fa-instagram" style="animation-iteration-count: infinite;"></i></a>
+        <a href="https://twitter.com/AungThantZinMy1?s=04&fbclid=IwAR3wY45ThEkjJ2oOSkPNIMvwpFy1cTapLNIvPfgguLrex3f2hdAN9VQ9HkE"><i class="fab wow bounceIn fa-twitter" style="animation-iteration-count: infinite;"></i></a>
+        <a href="https://github.com/aungthantzinmyo99"><i class="fab wow bounceIn fa-github" style="animation-iteration-count: infinite;"></i></a>
+    </div>
+</section>
+
+<section class="container-fluid about" id="about">
+    <div class="row">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="my-5 text-right my-3 mr-md-0 wow slideInLeft">
+                        <img src="image/background.jpg" alt="" class="w-100 about-img">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="my-5 wow slideInRight anidelay-1">
+                        <h1 class="font-weight-bolder text-primary">About Me</h1>
+                        <p class="my-4 text-black-50">
+                           Hey!.I am Aung Thant Zin Myo.I interest in Learning, Listining and Travelling.I studied at University of Computer Stuides Monywa in 2015 to 2020.
+                        </p>
+                        <table class="">
+                            <tr>
+                                <td style="width:150px;height: 40px;" class="font-weight-bolder">
+                                    Name:
+                                </td>
+                                <td class="text-black-50">
+                                    Aung Thant Zin Myo
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;" class="font-weight-bolder">Date Of Birth:</td>
+                                <td class="text-black-50">July 11,1999</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;" class="font-weight-bolder">Address:</td>
+                                <td class="text-black-50">Mandalay,Myanmar</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;" class="font-weight-bolder">Email:</td>
+                                <td class="text-black-50">redminote5.app@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;" class="font-weight-bolder">Date Of Birth:</td>
+                                <td class="text-black-50">09-750715559,09-958327584</td>
+                            </tr>
+                        </table>
+                        <h5 class=" my-4 font-weight-bolder"><span class="text-primary counter">20</span> Project Complete</h5>
+                        <a href="/image/CV form.docx" class="btn btn-primary text-uppercase wow fadeInRightBig anidelay-2" download>
+                            <small>Download CV</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid services" id="services">
+    <div class="row">
+        <div class="container">
+            <div class="row min-vh-100 py-5">
+                <div class="col-12 text-center mb-5 mb-md-0 wow animated slideInDown anidelay-1">
+                    <h1 class="font-weight-bolder text-primary mb-3">Services</h1>
+                    <h5 class="text-black-50">My special providing services......</h5>
+                 </div>
+                <div class="col-12 col-md-4">
+                    <div class="card services-card mb-3 text-center wow animated fadeIn anidelay-2">
+                        <div class="card-body card-color">
+                            <img src="image/programing.png" alt="" class="w-25 py-5">
+                            <p class="text-uppercase font-weight-bolder">Web Design</p> 
+                            <div class="b-bottom mb-3"></div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card services-card mb-3 text-center wow animated fadeIn anidelay-3">
+                        <div class="card-body">
+                            <img src="image/web-design.png" alt="" class="w-25 py-5">
+                            <p class="text-uppercase font-weight-bolder">Web Application</p> 
+                            <div class="b-bottom mb-3"></div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card services-card mb-3 text-center wow animated fadeIn anidelay-4">
+                        <div class="card-body">
+                            <img src="image/ux.png" alt="" class="w-25 py-5">
+                            <p class="text-uppercase font-weight-bolder">Web Development</p> 
+                            <div class="b-bottom mb-3"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid skills" id="skills">
+    <div class="row">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center py-5">
+                <div class="col-12 text-center mb-5 mb-md-0 wow animated bounceIn">
+                    <h1 class="font-weight-bolder text-primary">My Skills</h1>
+                    <h5 class="text-black-50 mb-0 pt-3">I am expert on......</h5>
+                 </div>
+                <div class="col-12 col-md-6">
+                    <div class="">
+                        <div class="d-flex justify-content-between">
+                            <img src="image/html-4.png" class="skill-img" alt="">
+                            <h5>85%</h5>
+                        </div>
+                        <div class="progress mb-3 wow animated fadeInLeft anidelay-1" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/css-big.jpg" class="skill-img" alt="">
+                            <h5>80%</h5>
+                        </div>
+                        <div class="progress mb-3  wow animated fadeInLeft anidelay-2" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/js.jpg" class="skill-img" alt="">
+                            <h5>60%</h5>
+                        </div>
+                        <div class="progress mb-3 wow animated fadeInLeft anidelay-3" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/bootstrap.jpg" class="skill-img" alt="">
+                            <h5>75%</h5>
+                        </div>
+                        <div class="progress wow animated fadeInLeft anidelay-4" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="">
+                        <div class="d-flex justify-content-between">
+                            <img src="image/jquery-3.png" class="skill-img" alt="">
+                            <h5>50%</h5>
+                        </div>
+                        <div class="progress mb-3 wow animated fadeInRight anidelay-1" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/php.png" class="skill-img" alt="">
+                            <h5>75%</h5>
+                        </div>
+                        <div class="progress mb-3 wow animated fadeInRight anidelay-2" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/laravel.png" class="skill-img" alt="">
+                            <h5>80%</h5>
+                        </div>
+                        <div class="progress mb-3 wow animated fadeInRight anidelay-3" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <img src="image/photoshop.png" class="skill-img" alt="">
+                            <h5>55%</h5>
+                        </div>
+                        <div class="progress wow animated fadeInRight anidelay-4" style="height: 12px;">
+                            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid projects" id="projects">
+    <div class="row py-md-5">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center py-5">
+                <div class="col-12 text-center mb-5 mb-md-5 wow flipInX">
+                    <h1 class="font-weight-bolder text-primary mb-3">My Projects</h1>
+                    <h5 class="text-black-50">Here are the some of my projects......</h5>
+                 </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-1">
+                        <img src="image/site-ss.png" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">Social Media Marketing</h5>
+                        <a href="https://aungthantzinmyo.000webhostapp.com/Marketing"><p class="text-black-50 mb-0">Profile Website</p></a>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-2">
+                        <img src="image/ss-2-min.PNG" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">Admin Dashboard</h5>
+                        <p class="text-black-50 mb-0">Admin Dashborad Template</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-3">
+                        <img src="image/ss-3-min.PNG" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">Facebook UI</h5>
+                        <p class="text-black-50 mb-0">Facebook UI Clone Template</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-4">
+                        <img src="image/MMExCalc-min.png" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">MMEx Calculator</h5>
+                        <p class="text-black-50 mb-0">Web Application</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-3">
+                        <img src="image/ss-4.png" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">Jetpack Mall</h5>
+                        <p class="text-black-50 mb-0">Ecommerce Website</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow project-card mb-5 p-0 wow pulse anidelay-2">
+                        <img src="image/ss-5.png" alt="" class="card-img-top">
+                       <div class="card-footer">  
+                        <h5 class="font-weight-bolder mb-0">Liquor Store</h5>
+                        <p class="text-black-50 mb-0">Ecommerce Website With Laravel</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid contact" id="contact">
+    <div class="row">
+       <div class="container">
+        <div class="row min-vh-100 py-5">
+            <div class="col-12 text-center mb-5 mb-md-5 wow pulse anidelay">
+                <h1 class="font-weight-bolder text-primary mb-5">Contact Me</h1>
+                <h5 class="text-black-50">I am availiable for your contract work......</h5>
+             </div>
+            <div class="col-12 col-md-6 mb-3">
+                <h4 class="text-primary mb-5">Contact Info</h4>
+                <div class=" wow fadeInLeft anidelay-1">
+                    <i class=" fas mr-3 mb-5 text-primary fa-phone"></i>
+                        09-750715559,09-958327584<br>
+                    <i class="fab mr-3 mb-5 text-primary fa-facebook-square"></i>
+                        <a href="https://www.facebook.com/profile.php?id=100026365733515" class="text-dark">Aung Thant Zin Myo</a><br>
+                    <i class=" fas mr-3 mb-5 text-primary fa-home"></i>
+                    Mandalay,Myanmar<br>
+                    <i class=" fas mr-3 mb-5 text-primary fa-envelope"></i>
+                        redminote5.app@gmail.com
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h4 class="text-primary mb-5">Contact Form</h4>
+                <form action="" class=" wow fadeInRight anidelay-2">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" rows="5" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-primary"><small class="text-uppercase">Send Message</small></button>
+                </form>
+            </div>
+        </div>
+       </div>
+    </div>
+</section>
+<footer class="container-fluid footer">
+    <div class="row pt-5 pt-md-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between flex-column flex-lg-row text-white pt-5">
+                        <span>Copyright ©2021 All Rights Reserved.</span>
+                        <p>Designed By <span class="font-weight-bolder text-uppercase">Aung Thant Zin Myo</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendor/wow/wow.js"></script>
+<script src="vendor/way_point/jquery.waypoints.min.js"></script>
+<script src="vendor/counterup/counter-up.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
